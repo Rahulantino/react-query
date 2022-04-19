@@ -5,7 +5,7 @@ export const SuperHeroesPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:4000/superheroes").then((res) => {
+    axios.get("https://gorest.co.in/public/v2/users").then((res) => {
       setData(res.data);
       setIsLoading(false);
     });
