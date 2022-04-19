@@ -14,7 +14,6 @@ export const SuperHeroesPage = () => {
   if (isLoading) {
     return <h2>Loading...</h2>;
   }
-
   return (
     <>
       <h2>Super Heroes Page</h2>
